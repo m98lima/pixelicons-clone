@@ -90,3 +90,10 @@ section p {
 section img {
     max-width: 75%;
 }
+
+
+
+section h2 {
+    font-size: 73px;
+    margin: 0 0 20px;
+}
