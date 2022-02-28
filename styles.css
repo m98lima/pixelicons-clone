@@ -98,3 +98,50 @@ section h2 {
     font-size: 73px;
     margin: 0 0 20px;
 }
+
+
+
+section#IconjarPackage {
+    position: relative;
+    margin-top: 230px;
+    padding-top: 0;
+}
+section#IconjarPackage div {
+    position: relative;
+    text-align: left;
+    height: 10px;
+    top: -180px;
+}
+
+section#IconjarPackage h2 {
+    display: inline;
+    position: absolute;
+    left: 35px;
+    top: 200px;
+    width: 250px;
+}
+
+section#IconjarPackage p {
+    display: inline;
+    position: absolute;
+    left: 35px;
+    top: 400px;
+    width: 250px;
+}
+
+section#IconjarPackage img {
+    width: 800px;
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    border-radius: 7px;
+}
+section#IconjarPackage div::before {
+    background-image: url(imgs/pattern.png);
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 600px;
+    width: 570px;
+    height: 600px;
+}
