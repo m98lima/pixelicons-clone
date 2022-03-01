@@ -9,6 +9,7 @@ header {
     background-color: #fffdfd;
     height: 70px;
     box-shadow: 0px 3px 2px #f7f7f7;
+    z-index: 5;
 }
 
 header h1 {
