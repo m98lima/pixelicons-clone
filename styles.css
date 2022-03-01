@@ -145,3 +145,22 @@ section#IconjarPackage div::before {
     width: 570px;
     height: 600px;
 }
+
+
+section#FileFormats {
+    position: relative;
+}
+section#FileFormats::before {
+    background-image: url(imgs/pattern.png);
+    content: '';
+    position: absolute;
+    top: 365px;
+    left: 0;
+    width: 100%;
+    height: 310px;
+    z-index: 1;
+}
+section#FileFormats img {
+    position: relative;
+    z-index: 2;
+}
