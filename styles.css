@@ -216,3 +216,24 @@ section#FileFormats img {
     top: 650px;
     left: 530px;
 }
+
+li {
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    padding-bottom: 35px;
+}
+
+ul {
+    position: relative;
+}
+#OptSVG::before {
+    content: '';
+    background-color: #000;
+    height: 4px;
+    width: 205px;
+    position: absolute;
+    top: 40px;
+}
