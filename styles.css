@@ -164,3 +164,55 @@ section#FileFormats img {
     position: relative;
     z-index: 2;
 }
+
+.black-background {
+    background-color: #000;
+    color: #fff;
+}
+
+
+#testimonials {
+    position: relative;
+    text-align: left;
+}
+
+#testimonials img {
+    width: 120px;
+    border-radius: 200px;
+    position: absolute;
+    top: 600px;
+    left: 450px;
+}
+
+#testimonials p {
+    position: relative;
+    padding-top: 200px;
+    width: 700px;
+}
+#testimonials p::before {
+    background-image: url(imgs/article.png);
+    content: '';
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    width: 189px;
+    height: 150px;
+}
+
+#testimonials h3 {
+    position: absolute;
+    top: 640px;
+    left: 530px;
+}
+#testimonials h3::before {
+    display: none;
+}
+
+#testimonials h4 {
+    font-size: 1.1em;
+    color: #ffffff80;
+    position: absolute;
+    padding-left: 50px;
+    top: 650px;
+    left: 530px;
+}
