@@ -299,3 +299,9 @@ ul {
     width: 210px;
 }
 
+footer p {
+    text-align: center;
+    color: #444444;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
